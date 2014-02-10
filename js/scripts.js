@@ -33,7 +33,7 @@ $(document).ready(function () {
 			] ,
 			counter = 0;                
 			setInterval(function() {
-			$(".banner-text-rotator").fadeOut(function(){$(this).html(ut_rotator_words[counter=(counter+1)%ut_rotator_words.length]).fadeIn();});}, 4000 );
+			$(".banner-text-rotator").fadeOut(function(){$(this).html(ut_rotator_words[counter=(counter+1)%ut_rotator_words.length]).fadeIn();});}, 8000 );
 		}
 		ut_word_rotator();
 		
